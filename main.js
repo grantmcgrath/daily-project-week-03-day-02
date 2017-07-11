@@ -36,8 +36,7 @@ let formData = [
     "label": "Select Language",
     "id": "user-language",
     "icon": "",
-    "options": [
-      {
+    "options": [{
         "label": "English",
         "value": "EN"
       },
@@ -85,14 +84,14 @@ let formData = [
 // HINTS:
 // As you can see, we access the first element in the array
 // with [0] and then grab the property "label" using the "." operator
-( function(){
+(function() {
   // Select the first element from the array
-  let first = formData[ 0 ];
+  let first = formData[0];
   // Log the first object
-  console.log( first );
+  console.log(first);
   // Log the string "First Name"
-  console.log( first.label );
-} )();
+  console.log(first.label);
+})();
 
 
 // -------- Your Code Goes Below this Line --------
